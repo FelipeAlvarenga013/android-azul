@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 @font-face {
     font-family: "android";
@@ -28,6 +30,7 @@
 body{
     background: var(--cor01) url('../imagens/wallpaper002.jpg') center repeat-x fixed;
     background-size: cover;
+
 }
 
 header{
@@ -41,8 +44,8 @@ header{
 header >h1 {
     font-family: var(--fonte-destaque);
     padding: 50px 0px 10px 0px;
-    font-size: 6vh;
-    
+    font-size: 3em;
+    font-weight: normal;
     
 }
 
@@ -122,6 +125,7 @@ section p {
     font-family: var(--fonte-normal);
     text-align: justify;
     text-indent: 10px;
+    line-height: 1.9em;
     padding: 15px 5px 10px 5px;
 }
 
