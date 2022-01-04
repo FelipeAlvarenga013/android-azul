@@ -131,13 +131,13 @@ section p {
 
 picture >img {
     display: block;
-    max-width: 98vw;
+    max-width: 98vh;
     margin: auto;
 
 }
 
 picture >img#iri {
-    min-width: 83vh;
+    min-width: 96%;
 }
 
 div {
